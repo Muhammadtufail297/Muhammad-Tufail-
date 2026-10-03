@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Tufail | Online Store</title>
+<meta name="description" content="Muhammad Tufail Online Store - Dates, Honey, Dry Fruits, Clothes, Shoes and Mobile Phones.">
+<style>
+:root{--green:#075b3d;--green2:#0b7650;--gold:#e6b64b;--cream:#fbf7ed;--dark:#132019;--muted:#66736b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:#f5f7f5}
+header{position:sticky;top:0;z-index:20;background:var(--green);color:#fff;box-shadow:0 3px 15px #0002}
+.nav{max-width:1200px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:24px;font-weight:900;line-height:1.05}.logo span{color:var(--gold)}
+nav a{color:#fff;text-decoration:none;margin:0 12px;font-weight:700}
+.wa{background:var(--gold);color:#172015!important;padding:12px 17px;border-radius:9px;display:inline-block}
+.hero{background:linear-gradient(120deg,#064b32,#16825b);color:#fff}
+.hero-inner{max-width:1200px;margin:auto;padding:76px 20px;display:grid;grid-template-columns:1.2fr .8fr;gap:45px;align-items:center}
+.hero h1{font-size:clamp(40px,6vw,68px);line-height:1.02;margin:0 0 20px}.hero p{font-size:19px;line-height:1.7;max-width:680px;color:#e9f5ef}
+.btn{display:inline-block;border:0;border-radius:9px;padding:13px 20px;font-weight:800;text-decoration:none;cursor:pointer}.gold{background:var(--gold);color:#172015}.green{background:var(--green);color:#fff}
+.hero-box{border:1px solid #ffffff35;background:#ffffff16;border-radius:24px;padding:40px;text-align:center}.hero-icon{font-size:100px}
+section{max-width:1200px;margin:auto;padding:65px 20px}.title{text-align:center;margin-bottom:35px}.title h2{font-size:34px;margin:0 0 8px}.title p{color:var(--muted)}
+.categories{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}.cat{background:#fff;border:1px solid #e4e9e5;border-radius:15px;padding:22px 8px;text-align:center;font-weight:800;box-shadow:0 4px 16px #00000008}.cat-icon{font-size:40px;margin-bottom:8px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.product{background:#fff;border:1px solid #e2e6e3;border-radius:17px;overflow:hidden;box-shadow:0 6px 24px #0000000a}.product-media{height:205px;background:var(--cream);display:flex;align-items:center;justify-content:center;font-size:80px}.product-media img{width:100%;height:100%;object-fit:cover}.product-body{padding:19px}.product-body h3{margin:0 0 8px;font-size:21px}.product-body p{color:#66736b;min-height:48px}.order{display:block;text-align:center;margin-top:14px}
+.about{background:#fff;max-width:none}.about-inner{max-width:1000px;margin:auto;text-align:center;padding:10px 20px 20px}.contact{background:var(--dark);color:#fff;max-width:none}.contact-inner{max-width:1000px;margin:auto;text-align:center;padding:20px}.contact-inner p{color:#dce8e1}
+footer{background:#0b120e;color:#cbd7d0;text-align:center;padding:24px}
+
+#adminPanel,#loginPanel{display:none}.panel{max-width:1200px;margin:auto;padding:30px 20px}.login-card,.admin-card{background:#fff;border-radius:18px;padding:28px;box-shadow:0 10px 35px #0001}.login-card{max-width:420px;margin:70px auto}.login-card input,.admin-form input,.admin-form textarea,.admin-form select{width:100%;padding:12px;border:1px solid #ccd5cf;border-radius:8px;font:inherit}.login-card label,.admin-form label{display:block;font-weight:700;margin:12px 0 6px}.admin-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.admin-form{display:grid;grid-template-columns:1fr 1fr;gap:10px}.admin-form .full{grid-column:1/-1}.admin-products{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:25px}.admin-product{border:1px solid #ddd;border-radius:12px;padding:14px}.admin-product button{margin-top:7px}.notice{background:#fff6d9;border:1px solid #efd98b;padding:12px;border-radius:9px;margin:15px 0}.small{font-size:13px;color:#69756e}
+@media(max-width:850px){nav{display:none}.hero-inner{grid-template-columns:1fr}.categories{grid-template-columns:repeat(3,1fr)}.products,.admin-products{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:540px){.categories,.products,.admin-products,.admin-form{grid-template-columns:1fr}.hero-inner{padding:55px 20px}.hero-box{padding:25px}}
+</style>
+</head>
+<body>
+
+<div id="store">
+<header><div class="nav">
+<div class="logo">Muhammad<br><span>Tufail</span></div>
+<nav><a href="#home">Home</a><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="wa" href="https://wa.me/923041901339" target="_blank">WhatsApp</a>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+<div><h1>Quality Products.<br>Delivered to You.</h1><p>Welcome to Muhammad Tufail Online Store — your convenient destination for premium dates, honey, dry fruits, clothes, shoes and mobile phones.</p><a class="btn gold" href="#shop">Shop Now</a></div>
+<div class="hero-box"><div class="hero-icon">🛍️</div><h2>One Store, Everything You Need</h2><p>Quality • Choice • Convenience</p></div>
+</div></section>
+
+<section><div class="title"><h2>Shop by Category</h2><p>Choose a category and explore our products.</p></div>
+<div class="categories">
+<div class="cat"><div class="cat-icon">🌴</div>Dates</div><div class="cat"><div class="cat-icon">🍯</div>Honey</div><div class="cat"><div class="cat-icon">🥜</div>Dry Fruits</div><div class="cat"><div class="cat-icon">👕</div>Clothes</div><div class="cat"><div class="cat-icon">👟</div>Shoes</div><div class="cat"><div class="cat-icon">📱</div>Mobiles</div>
+</div></section>
+
+<section id="shop"><div class="title"><h2>Our Products</h2><p>Contact us for product availability and current prices.</p></div><div id="products" class="products"></div></section>
+
+<section class="about" id="about"><div class="about-inner"><div class="title"><h2>About Muhammad Tufail</h2><p>We bring a range of everyday products together in one convenient online store. For product details, availability and prices, contact us directly on WhatsApp.</p></div></div></section>
+
+<section class="contact" id="contact"><div class="contact-inner"><h2>Contact & Orders</h2><p>WhatsApp / Call: <strong>0304 1901339</strong></p><a class="btn gold" href="https://wa.me/923041901339" target="_blank">Chat on WhatsApp</a></div></section>
+</main>
+<footer>© 2026 Muhammad Tufail Online Store. All rights reserved.</footer>
+</div>
+
+<div id="loginPanel" class="panel"><div class="login-card"><h2>Admin Login</h2><p>Manage your products privately.</p><label>Username</label><input id="loginUser"><label>Password</label><input id="loginPass" type="password"><button class="btn green" style="margin-top:15px;width:100%" onclick="login()">Login</button><p id="loginError" style="color:#b3261e"></p><p class="small">Demo credentials are included in the package README. For public deployment, use server-side authentication.</p></div></div>
+
+<div id="adminPanel" class="panel"><div class="admin-card">
+<div class="admin-top"><div><h2 style="margin:0">Admin Dashboard</h2><p class="small">Edit products and prices here. Public customers do not see prices.</p></div><div><button class="btn" onclick="viewStore()">View Store</button> <button class="btn gold" onclick="logout()">Logout</button></div></div>
+<div class="notice">Prices are stored privately in this browser. Product cards on the public store do not display prices.</div>
+<h3 id="formTitle">Add Product</h3>
+<div class="admin-form">
+<div><label>Product name</label><input id="pName"></div>
+<div><label>Category</label><select id="pCat"><option>Dates</option><option>Honey</option><option>Dry Fruits</option><option>Clothes</option><option>Shoes</option><option>Mobiles</option></select></div>
+<div><label>Price (private)</label><input id="pPrice" type="number"></div>
+<div><label>Image URL</label><input id="pImage" placeholder="https://..."></div>
+<div class="full"><label>Description</label><textarea id="pDesc"></textarea></div>
+<div><button class="btn green" onclick="saveProduct()">Save Product</button></div><div><button class="btn" onclick="clearForm()">Clear</button></div>
+</div>
+<div id="adminProducts" class="admin-products"></div>
+</div></div>
+
+<script>
+const STORAGE='mt_store_products_v2';
+const defaultProducts=[
+{name:'Premium Dates',cat:'Dates',price:0,desc:'Fresh, naturally sweet premium dates.',image:''},
+{name:'Pure Honey',cat:'Honey',price:0,desc:'Premium quality natural honey.',image:''},
+{name:'Premium Dry Fruits',cat:'Dry Fruits',price:0,desc:'Fresh mixed dry fruit selection.',image:''},
+{name:"Men's Clothing",cat:'Clothes',price:0,desc:'Comfortable and stylish clothing.',image:''},
+{name:'Premium Shoes',cat:'Shoes',price:0,desc:'Style and comfort for everyday wear.',image:''},
+{name:'Mobile Phones',cat:'Mobiles',price:0,desc:'Popular smartphones and accessories.',image:''}
+];
+let products=JSON.parse(localStorage.getItem(STORAGE)||'null')||defaultProducts;
+let editing=-1;
+function save(){localStorage.setItem(STORAGE,JSON.stringify(products))}
+function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function icon(c){return ({Dates:'🌴',Honey:'🍯','Dry Fruits':'🥜',Clothes:'👕',Shoes:'👟',Mobiles:'📱'})[c]||'🛍️'}
+function renderStore(){
+ document.getElementById('products').innerHTML=products.map(p=>`
+ <article class="product"><div class="product-media">${p.image?`<img src="${esc(p.image)}" alt="${esc(p.name)}">`:icon(p.cat)}</div>
+ <div class="product-body"><h3>${esc(p.name)}</h3><p>${esc(p.desc)}</p>
+ <a class="btn green order" target="_blank" href="https://wa.me/923041901339?text=${encodeURIComponent('Hello Muhammad Tufail, I am interested in '+p.name+'. Please share availability and current price.') }">Order on WhatsApp</a>
+ </div></article>`).join('');
+}
+function renderAdmin(){
+ document.getElementById('adminProducts').innerHTML=products.map((p,i)=>`<div class="admin-product"><b>${esc(p.name)}</b><p>${esc(p.cat)}</p><p><strong>Private price:</strong> ${p.price?('Rs. '+Number(p.price).toLocaleString('en-PK')):'Not set'}</p><p>${esc(p.desc)}</p><button class="btn" onclick="editProduct(${i})">Edit</button> <button class="btn" style="background:#ffe0e0" onclick="deleteProduct(${i})">Delete</button></div>`).join('');
+}
+function saveProduct(){
+ const p={name:pName.value.trim(),cat:pCat.value,price:Number(pPrice.value||0),image:pImage.value.trim(),desc:pDesc.value.trim()};
+ if(!p.name){alert('Please enter a product name.');return}
+ if(editing<0)products.push(p);else products[editing]=p;
+ save();clearForm();renderAdmin();renderStore();
+}
+function editProduct(i){editing=i;let p=products[i];pName.value=p.name;pCat.value=p.cat;pPrice.value=p.price||'';pImage.value=p.image||'';pDesc.value=p.desc||'';formTitle.textContent='Edit Product'}
+function deleteProduct(i){if(confirm('Delete this product?')){products.splice(i,1);save();renderAdmin();renderStore()}}
+function clearForm(){editing=-1;pName.value='';pPrice.value='';pImage.value='';pDesc.value='';formTitle.textContent='Add Product'}
+function login(){
+ if(loginUser.value==='admin'&&loginPass.value==='MT@2026!'){sessionStorage.setItem('mt_admin','1');showAdmin()}else loginError.textContent='Incorrect username or password.';
+}
+function showAdmin(){store.style.display='none';loginPanel.style.display='none';adminPanel.style.display='block';renderAdmin()}
+function showLogin(){store.style.display='none';loginPanel.style.display='block';adminPanel.style.display='none'}
+function viewStore(){adminPanel.style.display='none';store.style.display='block'}
+function logout(){sessionStorage.removeItem('mt_admin');viewStore()}
+function route(){if(location.hash==='#admin'){sessionStorage.getItem('mt_admin')?showAdmin():showLogin()}else{store.style.display='block';loginPanel.style.display='none';adminPanel.style.display='none'}}
+renderStore();route();
+</script>
+</body>
+</html>
